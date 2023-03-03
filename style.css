@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+  overflow: hidden;
+}
+
+.head {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.logo img {
+  height: 70%;
+}
+
+.logo {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.icon__wrapper {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon__list svg {
+  fill: #fff;
+}
+
+li {
+  font-family: Kanit;
+  font-weight: 300;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+nav {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 3%;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.image__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__container {
+  width: 100%;
+  height: 100%;
+}
+
+.main__image {
+  height: 60%;
+  width: 100%;
+}
+
+.main__text {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 100%;
+  width: 33%;
+}
+
+.image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.image__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 8rem;
+  color: #fff;
+  font-family: Kanit;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 8rem;
+  color: transparent;
+  -webkit-text-stroke: #fff 5px;
+  font-family: Kanit;
+  font-weight: 600;
+  line-height: 35%;
+}
+
+@media (max-width: 1280px) {
+  .icon {
+    width: 70%;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    font-size: 7rem;
+    color: #fff;
+    font-family: Kanit;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 7rem;
+    color: transparent;
+    -webkit-text-stroke: #fff 5px;
+    font-family: Kanit;
+    font-weight: 600;
+    line-height: 35%;
+  }
+  nav {
+    width: 30%;
+  }
+  .logo {
+    width: 30%;
+  }
+  .icon__wrapper {
+    width: 30%;
+  }
+}
+@media (max-width: 1080px) {
+  .icon {
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+  nav {
+    width: 35%;
+  }
+  .logo {
+    width: 35%;
+  }
+  .icon__wrapper {
+    width: 35%;
+  }
+  h1 {
+    font-size: 6rem;
+    color: #fff;
+    font-family: Kanit;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 6rem;
+    color: transparent;
+    -webkit-text-stroke: #fff 4px;
+    font-family: Kanit;
+    font-weight: 600;
+    line-height: 35%;
+  }
+}
+@media (max-width: 968px) {
+  .icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    font-size: 5rem;
+    color: #fff;
+    font-family: Kanit;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 5rem;
+    color: transparent;
+    -webkit-text-stroke: #fff 3px;
+    font-family: Kanit;
+    font-weight: 600;
+    line-height: 35%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
