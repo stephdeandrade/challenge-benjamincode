@@ -8,26 +8,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="preloader_wrapper" id="wrapper">
+        <div class="preloader_container">
+            <div class="preloader">
+                <div class="preloader_pics preimg1">
+                    <picture>
+                        <source srcset="img/1.jpeg">
+                        <img src="img/1.jpeg" alt="">
+                    </picture>
+                </div>
+                <div class="preloader_pics preimg2">
+                    <picture>
+                        <source srcset="img/2.jpeg">
+                        <img src="img/2.jpeg" alt="">
+                    </picture>                </div>
+                <div class="preloader_pics preimg3">
+                    <picture>
+                        <source srcset="img/3.jpeg">
+                        <img src="img/3.jpeg" alt="">
+                    </picture>                
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="head">
         <header>
             <nav>
                 <ul>
-                    <a href=""><li>SHOP</li></a>
-                    <a href=""><li>COLLECTION</li></a>
-                    <a href=""><li>ABOUT</li></a>
-                    <a href=""><li>CONTACT</li></a>
+                    <a href="" class="nav-btn"><li>SHOP</li></a>
+                    <a href="" class="nav-btn"><li>COLLECTION</li></a>
+                    <a href="" class="nav-btn"><li>ABOUT</li></a>
+                    <a href="" class="nav-btn"><li>CONTACT</li></a>
                 </ul>
             </nav>
             <div class="logo">
-                <img src="img/logo/Cp.svg" alt="">
+                <img src="img/logo/Cp.svg" alt="" class="logo_img">
             </div>
             <div class="icon__wrapper">
                 <div class="icon">
                     <div class="icon__list">
-                        <div class="search"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="M792 935.333 532.667 676q-30 25.333-69.64 39.667Q423.388 730 378.667 730q-108.441 0-183.554-75.167Q120 579.667 120 472.667T195.167 290.5q75.166-75.167 182.5-75.167 107.333 0 182.166 75.167 74.834 75.167 74.834 182.267 0 43.233-14 82.9-14 39.666-40.667 73l260 258.667-48 47.999ZM378 663.334q79.167 0 134.583-55.834Q568 551.667 568 472.667q0-79.001-55.417-134.834Q457.167 282 378 282q-79.722 0-135.528 55.833t-55.806 134.834q0 79 55.806 134.833Q298.278 663.334 378 663.334Z"/></svg></div>
-                        <div class="person"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="M480 575.333q-66 0-109.667-43.666Q326.667 488 326.667 422t43.666-109.666Q414 268.667 480 268.667t109.667 43.667Q633.333 356 633.333 422t-43.666 109.667Q546 575.333 480 575.333ZM160 896V796q0-36.666 18.5-64.166T226.667 690Q292 659.667 354.333 644.5 416.667 629.334 480 629.334t125.333 15.5q62 15.5 127.281 45.296 30.534 14.417 48.96 41.81Q800 759.334 800 796v100H160Zm66.666-66.666h506.668V796q0-14.333-8.167-27t-20.5-19Q644 720.333 590.333 708.167 536.667 696 480 696t-111 12.167Q314.667 720.333 254.667 750q-12.334 6.333-20.167 19-7.834 12.667-7.834 27v33.334ZM480 508.667q37 0 61.833-24.833Q566.667 459 566.667 422t-24.834-61.833Q517 335.333 480 335.333t-61.833 24.834Q393.333 385 393.333 422t24.834 61.834Q443 508.667 480 508.667ZM480 422Zm0 407.334Z"/></svg></div>
-                        <div class="like"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="m480 936-58-52q-101-91-167-157T150 608.5Q111 556 95.5 512T80 422q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810 608.5Q771 661 705 727T538 884l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518 376h-76q-15-41-55-67.5T300 282q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480 828Zm0-273Z"/></svg></div>
-                        <div class="bag"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="M240 976q-33 0-56.5-23.5T160 896V416q0-33 23.5-56.5T240 336h80q0-66 47-113t113-47q66 0 113 47t47 113h80q33 0 56.5 23.5T800 416v480q0 33-23.5 56.5T720 976H240Zm0-80h480V416h-80v80q0 17-11.5 28.5T600 536q-17 0-28.5-11.5T560 496v-80H400v80q0 17-11.5 28.5T360 536q-17 0-28.5-11.5T320 496v-80h-80v480Zm160-560h160q0-33-23.5-56.5T480 256q-33 0-56.5 23.5T400 336ZM240 896V416v480Z"/></svg></div>
+                        <div class="search icon_img"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="M792 935.333 532.667 676q-30 25.333-69.64 39.667Q423.388 730 378.667 730q-108.441 0-183.554-75.167Q120 579.667 120 472.667T195.167 290.5q75.166-75.167 182.5-75.167 107.333 0 182.166 75.167 74.834 75.167 74.834 182.267 0 43.233-14 82.9-14 39.666-40.667 73l260 258.667-48 47.999ZM378 663.334q79.167 0 134.583-55.834Q568 551.667 568 472.667q0-79.001-55.417-134.834Q457.167 282 378 282q-79.722 0-135.528 55.833t-55.806 134.834q0 79 55.806 134.833Q298.278 663.334 378 663.334Z"/></svg></div>
+                        <div class="person icon_img"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="M480 575.333q-66 0-109.667-43.666Q326.667 488 326.667 422t43.666-109.666Q414 268.667 480 268.667t109.667 43.667Q633.333 356 633.333 422t-43.666 109.667Q546 575.333 480 575.333ZM160 896V796q0-36.666 18.5-64.166T226.667 690Q292 659.667 354.333 644.5 416.667 629.334 480 629.334t125.333 15.5q62 15.5 127.281 45.296 30.534 14.417 48.96 41.81Q800 759.334 800 796v100H160Zm66.666-66.666h506.668V796q0-14.333-8.167-27t-20.5-19Q644 720.333 590.333 708.167 536.667 696 480 696t-111 12.167Q314.667 720.333 254.667 750q-12.334 6.333-20.167 19-7.834 12.667-7.834 27v33.334ZM480 508.667q37 0 61.833-24.833Q566.667 459 566.667 422t-24.834-61.833Q517 335.333 480 335.333t-61.833 24.834Q393.333 385 393.333 422t24.834 61.834Q443 508.667 480 508.667ZM480 422Zm0 407.334Z"/></svg></div>
+                        <div class="like icon_img"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="m480 936-58-52q-101-91-167-157T150 608.5Q111 556 95.5 512T80 422q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810 608.5Q771 661 705 727T538 884l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518 376h-76q-15-41-55-67.5T300 282q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480 828Zm0-273Z"/></svg></div>
+                        <div class="bag icon_img"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="M240 976q-33 0-56.5-23.5T160 896V416q0-33 23.5-56.5T240 336h80q0-66 47-113t113-47q66 0 113 47t47 113h80q33 0 56.5 23.5T800 416v480q0 33-23.5 56.5T720 976H240Zm0-80h480V416h-80v80q0 17-11.5 28.5T600 536q-17 0-28.5-11.5T560 496v-80H400v80q0 17-11.5 28.5T360 536q-17 0-28.5-11.5T320 496v-80h-80v480Zm160-560h160q0-33-23.5-56.5T480 256q-33 0-56.5 23.5T400 336ZM240 896V416v480Z"/></svg></div>
                     </div>
                 </div>
             </div>
@@ -36,8 +59,8 @@
  <div class="main">
     <div class="main__container">
         <div class="main__text">
-            <div class="main_h1"><h1>NEW COLLECTION</h1></div>
-            <div class="main_h2"><h2>METROPOLIS SERIES</h2></div>
+            <div class="main_h1"><h1 class="h1_slide">NEW COLLECTION</h1></div>
+            <div class="main_h2"><h2 class="h2_slide">METROPOLIS SERIES</h2></div>
         </div>
         <div class="main__image">
             <div class="image__wrapper">
@@ -60,5 +83,7 @@
     </div>
  </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
 <script src="js/script.js"></script>
 </html>
