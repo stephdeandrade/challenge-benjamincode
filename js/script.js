@@ -176,3 +176,4 @@ this.tl= new gsap.timeline({
 this.tl.to(".main__image", {
     height: "100%"
 })
+
