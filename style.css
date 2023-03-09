@@ -243,7 +243,6 @@ h2 {
     -webkit-text-stroke: #fff 5px;
     font-family: Kanit;
     font-weight: 600;
-    line-height: 35%;
   }
   nav {
     width: 30%;
@@ -282,7 +281,6 @@ h2 {
     -webkit-text-stroke: #fff 4px;
     font-family: Kanit;
     font-weight: 600;
-    line-height: 35%;
   }
 }
 @media (max-width: 968px) {
@@ -303,7 +301,66 @@ h2 {
     -webkit-text-stroke: #fff 3px;
     font-family: Kanit;
     font-weight: 600;
-    line-height: 35%;
+  }
+}
+@media (max-width: 760px) {
+  .icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    font-size: 4rem;
+    color: #fff;
+    font-family: Kanit;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke: #fff 3px;
+    font-family: Kanit;
+    font-weight: 600;
+  }
+}
+@media (max-width: 615px) {
+  .icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-family: Kanit;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke: #fff 3px;
+    font-family: Kanit;
+    font-weight: 600;
+  }
+}
+@media (max-width: 414px) {
+  .icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    font-size: rem;
+    color: #fff;
+    font-family: Kanit;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke: #fff 3px;
+    font-family: Kanit;
+    font-weight: 600;
   }
 }
 
